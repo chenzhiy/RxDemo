@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/mMobileEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxLength="11"
+        android:hint="请输入手机号"
+        />
+    <EditText
+        android:id="@+id/mVerifyCodeEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入验证码"
+        />
+    <EditText
+        android:id="@+id/mPwdEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入密码"
+        />
+    <EditText
+        android:id="@+id/mPwdConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请再次输入密码"
+        />
+
+    <Button
+        android:id="@+id/mRegisterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="注册"
+        android:textSize="18sp"
+        android:textColor="#112233">
+
+    </Button>
+
+</LinearLayout>
